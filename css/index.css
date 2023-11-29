@@ -1,0 +1,13 @@
+.header-bg-position{
+    background-position: center 80%;
+}
+
+.font-name-kanit{
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-active{
+    background-color: white;
+    color: #000;
+    border-radius: 4px;
+}

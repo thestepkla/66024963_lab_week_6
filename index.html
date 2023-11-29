@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- tailwindcss import-->
+        <script src="https://cdn.tailwindcss.com"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- css import-->
+        <link rel="stylesheet" href="./css/index.css">
+
+        <!-- font import-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    
+        <!-- facebook page -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0" nonce="8moZZ3pv"></script>
+
+    </head>
+    <body>
+        <div class="w-[100dvw] h-[100dvh] flex justify-center bg-slate-200">
+            <div class="flex flex-col w-[80%] h-[100%]">
+
+                <!-- header -->
+                <div class="w-[100%] h-[26%] flex flex-col  bg-cover header-bg-position" style="background-image: url(./assets/image/bg-header.svg);">
+
+                    <!-- header -->
+                    <div class="w-[100%] h-[78%] flex items-center backdrop-opacity-10 backdrop-invert bg-black/10">
+                        <!-- icon สาขา-->
+                        <img src="./assets/image/logo.png" class="h-[70%] ml-[1dvw]">
+                        <p class="ml-[1dvw] text-white text-[5vh] font-medium font-name-kanit">Software Engineer</p>
+                    </div>
+
+                    <!-- navbar -->
+                    <div class="w-[100%] h-[22%] flex items-center backdrop-opacity-10 backdrop-invert bg-black/80 px-[1dvw]">
+                        <!-- navlist -->
+                        <div class="flex">
+                            <div class="px-[1.25dvw] nav-active">
+                                <p class="text-[2.5dvh] font-name-kanit text-center">หน้าหลัก</p>
+                            </div>
+                            <div class="px-[1.25dvw]">
+                                <p class="text-white text-[2.5dvh] font-name-kanit text-center">ข้อมูลสาขา</p>
+                            </div>
+                            <div class="px-[1.25dvw]">
+                                <p class="text-white text-[2.5dvh] font-name-kanit">ผลงาน</p>
+                            </div>
+                            <div class="px-[1.25dvw]">
+                                <p class="text-white text-[2.5dvh] font-name-kanit">นิสิต</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content -->
+                <div class="w-[100%] bg-slate-50 h-[61%]">
+
+                    <!-- facebook page -->
+                    <div class="w-[100%] h-[100%] flex justify-center items-center">
+                        <div class="flex justify-center items-center w-[80%] h-fit space-x-12">
+
+                            <div>
+                                <div class="fb-page" data-href="https://www.facebook.com/Software.up" height="340" data-tabs="timeline" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+                                    <blockquote cite="https://www.facebook.com/Software.up" class="fb-xfbml-parse-ignore">
+                                        <a href="https://www.facebook.com/Software.up">วิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา</a>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="text-[3.5vh] font-medium font-name-kanit text-blue-800">Facebook Page</p>
+                                <p class="text-[2.5vh] font-medium font-name-kanit">วิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- footer-->
+                <div class="w-[100%] bg-black h-[13%] flex items-center justify-center">
+                    <p class="text-[2vh] text-white font-medium font-name-kanit text-center">Copyright &copy; 2023 - 2024 Korarit Saegthong</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
